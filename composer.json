@@ -1,5 +1,5 @@
 {
-    "name": "enqueue/elastica-bundle",
+    "name": "steamulo/elastica-bundle",
     "type": "symfony-bundle",
     "description": "The bundle adds extra features to FOSElasticaBundle bundle",
     "keywords": ["elasticsearch", "elastica", "fos", "performance"],
@@ -18,5 +18,8 @@
         "branch-alias": {
             "dev-master": "0.10.x-dev"
         }
+    },
+    "replace": {
+        "enqueue/elastica-bundle": "*"
     }
 }
